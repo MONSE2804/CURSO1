@@ -10,25 +10,26 @@ text-align: center;
 width: 100%;
 justify-content: center;
 }
+
 .cuadro2{
     background: red;
     width: 25%;
     text-align: center;
     z-index: 10;
-
 }
+
 .cuadroprincipal{
     display:flex;
     justify-content: center;
-
 }
+
 .cuadro3{
     background: coral;
     margin-right: 40px;
     width:30%;
     z-index: 10;
-    
 }
+
 html{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 .cuadroredessociales{
@@ -41,38 +42,49 @@ width: 500px;
 margin:auto;
 z-index: 10;
 position: relative;
-
 }
+
 .redes1{
     text-align: center;
     z-index: 10;
-
  }
+
 .redes2{
     text-align: center;
     z-index: 10;
-
 }
-.botones{
-    z-index:10;
-    position:relative;
 
+.botones{
+    z-index:50;
+    position:relative;
+    text-align: center;
 }
 
 .imagenpape{
     width: 100%;
 position: absolute;
 object-fit: cover;
-
 }
 
-.cartas{
+.cartas{ 
 
+display:flex;
+text-align:center;
+}
+
+.textocartas1{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.textocartas2{
+    margin-top: 70px;
+    text-align: center;
 }
 
 .cuadrosecundario{
-    margin-top: 30%;
+    margin-top: 40%;
     display: flex;
-
-
-}
+text-align: center;
+font-size: large;
+width: 100%;
