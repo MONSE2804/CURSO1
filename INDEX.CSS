@@ -6,8 +6,9 @@
 }
 .cuadro1{
 background: blue;
-text-align: center;
+text-align: left;
 width: 100%;
+font-family: cursive;
 justify-content: center;
 }
 
@@ -61,30 +62,53 @@ position: relative;
 }
 
 .imagenpape{
-    width: 100%;
+    width: 98%;
 position: absolute;
 object-fit: cover;
+margin-bottom: 10%;
 }
 
 .cartas{ 
 
 display:flex;
 text-align:center;
+object-fit: cover;
+margin-top: 10px;
+
+
 }
 
 .textocartas1{
-    margin-top: 70px;
-    text-align: center;
+    margin-top: 10%;
+    text-align: justify;
+    display:flex;
+    padding: center;
+    
 }
 
 .textocartas2{
-    margin-top: 70px;
-    text-align: center;
+    margin-top: 10%;
+    text-align: justify;
+    display:flex;
+    padding: center;
+
+
 }
 
 .cuadrosecundario{
-    margin-top: 40%;
-    display: flex;
+    margin-top: 20%;
+    display:flex;
 text-align: center;
 font-size: large;
-width: 100%;}
+width: 100%;
+justify-content:center;
+object-fit: cover;
+}
+
+.cuadrotercero{
+
+}
+
+.cuadrocuarto{
+    
+}
