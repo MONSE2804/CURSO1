@@ -59,13 +59,14 @@ position: relative;
     z-index:50;
     position:relative;
     text-align: center;
+    font-size: larger;
 }
 
 .imagenpape{
     width: 98%;
 position: absolute;
 object-fit: cover;
-margin-bottom: 10%;
+margin-bottom: 40%;
 }
 
 .cartas{ 
@@ -73,7 +74,7 @@ margin-bottom: 10%;
 display:flex;
 text-align:center;
 object-fit: cover;
-margin-top: 10px;
+margin-top: 200px;
 
 
 }
@@ -83,6 +84,7 @@ margin-top: 10px;
     text-align: justify;
     display:flex;
     padding: center;
+    width:50%;
     
 }
 
@@ -91,6 +93,7 @@ margin-top: 10px;
     text-align: justify;
     display:flex;
     padding: center;
+    width:50;
 
 
 }
@@ -105,10 +108,55 @@ justify-content:center;
 object-fit: cover;
 }
 
-.cuadrotercero{
+.cuadroterciario{
+    margin-top: 10%;
+    display:flex;
+text-align: center;
+font-size: large;
+width: 100%;
+justify-content:center;
+object-fit: cover;
+background-color: pink;
+position: relative;
+}
+
+.cartas1{
+object-fit: cover;
+margin-top: 10px;
+justify-content: center;
+}
+
+.tituloterciario{
+    position: absolute;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 700;
 
 }
 
-.cuadrocuarto{
+.textocartas11{
+    margin-top: 10%;
+    text-align: center;
+    padding: center;
+    width:70%;
+    background-color: palevioletred;
     
+}
+
+.textocartas21{
+    margin-top: 10%;
+    text-align: center;
+    padding: center;
+    width:70%;
+    background-color: palevioletred;
+    
+}
+
+.imagen11{
+    margin-top: 10%;
+    justify-content: center;
+}
+.imagen21{
+    margin-top: 10%;
+    justify-content: center;
 }
